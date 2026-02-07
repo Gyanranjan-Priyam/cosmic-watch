@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { Bell, LogOut, Mail, MapPin } from 'lucide-react';
 import { useState } from 'react';
 import DashboardNavbar from '@/components/dashboard-navbar';
