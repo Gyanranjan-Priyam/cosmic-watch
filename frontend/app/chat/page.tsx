@@ -164,14 +164,14 @@ export default function ChatPage() {
 
           {/* Personnel */}
           <div className="px-3 py-2 mt-4">
-            <button className="flex items-center justify-between w-full text-xs text-gray-400 hover:text-gray-300 mb-2">
+            <div className="flex items-center justify-between w-full text-xs text-gray-400 hover:text-gray-300 mb-2">
               <span className="font-semibold uppercase">Personnel</span>
               <button className="hover:text-gray-200">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                 </svg>
               </button>
-            </button>
+            </div>
             <div className="space-y-1">
               {personnel.map((person) => (
                 <button
