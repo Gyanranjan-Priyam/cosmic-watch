@@ -59,7 +59,7 @@ export default function AsteroidDetailPage({ params }: { params: { id: string } 
       <main className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-sm text-gray-400 mb-4 sm:mb-6">
-          <Link href="/asteroids" className="hover:text-gray-300">
+          <Link href="/dashboard" className="hover:text-gray-300">
             Asteroids
           </Link>
           <ChevronLeft className="w-4 h-4 rotate-180" />
